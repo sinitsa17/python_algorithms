@@ -1,0 +1,10 @@
+# Задание 1. Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь.
+# Блок-схема: https://drive.google.com/file/d/11A-J1wV1T9uP8Ucx6A-YDcGt5vin8wvY/view?usp=sharing
+
+num = int(input('Введите трёхзначное число:'))
+num1 = num // 100
+num2 = (num % 100) // 10
+num3 = num % 10
+s = num1 + num2 + num3
+div = num1 * num2 * num3
+print(f'Сумма цифр числа: {s} , произведение цифр числа: {div}')
